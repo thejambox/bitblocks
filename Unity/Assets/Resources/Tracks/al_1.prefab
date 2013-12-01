@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: al_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67e88a63d183f4c4395e54a2d77403b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  author: Adam Loeb (KY)
+  title: Red
+  clips:
+  - {fileID: 8300000, guid: 150695b4c4f2ea2419e5d3cbab6c8d5b, type: 3}
+  - {fileID: 8300000, guid: 24e675d4e0f672a49a0d105622fdcad1, type: 3}
+  - {fileID: 8300000, guid: 3c58a3f6f655a5e43ba95286fc8b9689, type: 3}
+  - {fileID: 8300000, guid: 3f45d096ffbb71a49869c0a1194554c2, type: 3}
+  - {fileID: 8300000, guid: 5b4aa50b5963951459e7e75c1d37876c, type: 3}
+  - {fileID: 8300000, guid: 868f81c224eec7449b176899287ad55c, type: 3}
+  - {fileID: 8300000, guid: da2fb9662504dae468fd0c921fe9ba22, type: 3}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

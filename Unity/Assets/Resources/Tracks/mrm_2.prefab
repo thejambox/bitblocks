@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: mrm_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67e88a63d183f4c4395e54a2d77403b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  author: M.R. Miller
+  title: 
+  clips:
+  - {fileID: 8300000, guid: 48789edb304fd8c44bb242758675941a, type: 3}
+  - {fileID: 8300000, guid: 69f0267784f4e7b40a0dd1e0ea9f0d46, type: 3}
+  - {fileID: 8300000, guid: 70453851446b6e3478d6a13644046bda, type: 3}
+  - {fileID: 8300000, guid: 94bfdce7b1f87924e83d2f615cfb1332, type: 3}
+  - {fileID: 8300000, guid: a6025ccfdf2bbfc418a80513b4d6baec, type: 3}
+  - {fileID: 8300000, guid: ae3460d909feb8840b544c74e3d9c861, type: 3}
+  - {fileID: 8300000, guid: b504eabd78bd35b429eab5f0a59541a1, type: 3}
+  - {fileID: 8300000, guid: db97ea910df82df48a46229f93b40299, type: 3}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

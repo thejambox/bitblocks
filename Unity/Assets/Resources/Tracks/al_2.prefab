@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: al_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67e88a63d183f4c4395e54a2d77403b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  author: Adam Loeb (KY)
+  title: NoRemorse
+  clips:
+  - {fileID: 8300000, guid: 1ba61d79ef82c84489f312cbb7b216b8, type: 3}
+  - {fileID: 8300000, guid: 24fedd6356f0ccf4bb84b6c86a887854, type: 3}
+  - {fileID: 8300000, guid: 28aa9459c520966458dfdd5be4d0aa0e, type: 3}
+  - {fileID: 8300000, guid: 30a82be5aee5aba4794198e1daf6ef2a, type: 3}
+  - {fileID: 8300000, guid: 4c80746be85ed1d4eb7321968764a96e, type: 3}
+  - {fileID: 8300000, guid: 60db25dcde567764b9af02b8e631a76b, type: 3}
+  - {fileID: 8300000, guid: 73de0767a09c14542a73c59ee7b16aec, type: 3}
+  - {fileID: 8300000, guid: 7ffdd09d3793f42498880b3f9cbd8ca0, type: 3}
+  - {fileID: 8300000, guid: 9fd82e4bbb7e64b439e5754bb222192b, type: 3}
+  - {fileID: 8300000, guid: c01f977667c563d4ab8eaf81ff66bc46, type: 3}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
